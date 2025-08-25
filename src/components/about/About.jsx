@@ -1,4 +1,3 @@
-import React from "react";
 import "./About.css";
 import { FaAward } from "react-icons/fa";
 import { VscFolderLibrary } from "react-icons/vsc";
@@ -11,7 +10,7 @@ const About = () => {
       <div className="container about_container">
         <div className="about_me">
           <div className="about_me-image">
-            <img src="https://res.cloudinary.com/dqmgf14ee/image/upload/v1727440139/portfolio/expnhzqoykd7wdx0zyrt.jpg" alt="" />
+            <img src="https://res.cloudinary.com/dqmgf14ee/image/upload/v1756146713/portfolio/red_profile_ascpfy.png" alt="" />
           </div>
         </div>
 
@@ -19,8 +18,8 @@ const About = () => {
           <div className="about_cards">
             <article className="about_card">
               <FaAward className="about_icon" />
-              <h5>Experience</h5>
-              <small>2 Years</small>
+              <h5>Job Experience</h5>
+              <small>1 Year+</small>
             </article>
             <article className="about_card">
               <VscFolderLibrary className="about_icon" />
@@ -32,9 +31,6 @@ const About = () => {
             I am a skilled Full Stack developer with expertise in building modern,
             scalable, and interactive web applications using latest technologies.
           </p>
-          <a href="#contact" className="btn btn-primary">
-            Let's Talk
-          </a>
         </div>
       </div>
     </section>

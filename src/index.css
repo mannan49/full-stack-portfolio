@@ -54,7 +54,7 @@ h1{
     size: 2.5rem;
 }
 section{
-    margin-top: 8rem;
+    margin-top: 4rem;
 }
 
 section >h5{
@@ -118,7 +118,7 @@ img{
         width: var(--container-width-sm);
     }
     section{
-        margin-top: 6rem;
+        margin-top: 3rem;
     }
     section >h2{
         margin-bottom: 2rem;

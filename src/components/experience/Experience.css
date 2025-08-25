@@ -27,11 +27,14 @@
 }
 .experience_details{
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    gap: 0.5rem;
 }
 .experience_details_icons{
     color: var(--color-primary);
     margin-top: 4px;
+    font-size: 1.8rem;
+    /* background-color: brown; */
 }
 /* ----------MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
