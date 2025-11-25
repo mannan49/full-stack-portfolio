@@ -30,6 +30,13 @@
     gap: 2rem;
     margin: 0.3rem;
 }
+.btn.github-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
 /* ----------MEDIA QUERIES (MEDIUM DEVICES) */
 @media screen and (max-width: 1024px) {
     .portfolio_container{
